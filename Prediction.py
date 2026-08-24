@@ -61,7 +61,7 @@ def predict_message():
 
     result_label.config(
         text=f"Prediction: {final_result}" )
-
+#GUI
 root = tk.Tk()
 root.title("SMS Spam Detector")
 root.geometry("600x450")
