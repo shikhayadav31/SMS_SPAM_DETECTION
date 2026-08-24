@@ -2,7 +2,7 @@ import joblib
 from nltk.stem import PorterStemmer
 from scipy.sparse import hstack
 import re
-import nltk 
+
 
 def clean_text(text):
     text = re.sub(r'(https?://\S+|www\.\S+)',' URL ',text)
